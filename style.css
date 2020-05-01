@@ -1,0 +1,36 @@
+html {
+    background-color: wheat;
+    zoom: 3;
+}
+
+.red {
+    color: #FF5049 !important;
+}
+
+.red-focus:focus {
+    border: 1px solid #FF5049 !important;
+}
+
+.income {
+    position: relative;
+    float: left;
+    padding-left: 50px;
+}
+
+.add__description,
+.add__value,
+.add__type {
+    border-radius: 90px;
+}
+
+.expenses,
+.expenses__title,
+.expenses__list {
+    position: relative;
+    padding-left: 50px;
+    overflow: hidden;
+}
+
+.wrapper {
+    border: 1px solid black;
+}
